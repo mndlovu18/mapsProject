@@ -1,0 +1,79 @@
+body {
+  text-align: center;
+font-family: 'Times New Roman', Times, serif;
+background-image: url(image2.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+color: white;
+font-size: 22px;
+margin-left: 100px;
+margin-right: 100px;
+}
+.headings img{
+  height: 50px;
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+
+* {
+  border: 1px solid red !important;
+
+}
+
+.navbar {
+  border: 2px solid black;
+display: inline;
+padding-right: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  margin-left: 20px;
+  color: white;
+}
+
+#Breakfast img {
+  border: 2px solid black;
+}
+
+#Lunch img {
+  border: 2px solid black;
+}
+
+#Supper img {
+  border: 2px solid black;
+}
+
+#Dessert img {
+  border: 2px solid black;
+}
+
+.home img {
+  width: 200px;
+  height: 200px;
+}
+
+.jamaica {
+  float: left;
+}
+
+.germany {
+  float: right;
+}
+
+.slovakia {
+  float: left;
+}
+
+.zimbabwe {
+  float: right;
+}
+
+.firsttwo {
+  display: block;
+}
+
+.lasttwo {
+  display: block;
+}
