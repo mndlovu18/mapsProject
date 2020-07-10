@@ -1,7 +1,7 @@
 body {
 text-align: center;
 font-family: Georgia, 'Times New Roman', Times, serif;
-background-image: url(foodwall.jpg);
+background-image: url(image2.jpg);
 background-repeat:;
 background-size:;
 color: white;
@@ -112,6 +112,7 @@ font-size:30px;
 .text_1 {
   margin-top: 0px;
   padding-top: 0px;
+  padding-right: 60px;
   overflow: hidden;
   white-space: nowrap;
   animation: typewriter;
@@ -123,7 +124,7 @@ font-size:30px;
   color: blanchedalmond;
 }
 .text_1::after {
-  content: "|";
+  content: "";
   position: absolute;
   right: 0;
   animation: caret infinite;
@@ -199,7 +200,7 @@ font-size:30px;
 
 
 .food {
-	background-image: url(image2.jpg);
+	background-image: url(darkblue.jpg);
 	background-size: cover;
   background-repeat:no-repeat;
   border: 2px solid black;
