@@ -16,10 +16,10 @@ margin-right: 100px;
 }
 
 
-* {
+/* {
   border: 1px solid red !important;
 
-}
+}*/
 
 .navbar {
   border: 2px solid black;
@@ -52,28 +52,17 @@ padding-right: 20px;
 .home img {
   width: 200px;
   height: 200px;
+  border: 2px solid black;
 }
 
-.jamaica {
-  float: left;
-}
 
-.germany {
-  float: right;
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
 }
-
-.slovakia {
-  float: left;
-}
-
-.zimbabwe {
-  float: right;
-}
-
-.firsttwo {
-  display: block;
-}
-
-.lasttwo {
-  display: block;
+.grid-item {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
 }
