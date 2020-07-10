@@ -1,37 +1,60 @@
 body {
-  text-align: center;
+text-align: center;
 font-family: 'Times New Roman', Times, serif;
 background-image: url(image2.jpg);
 background-repeat: no-repeat;
-background-size: cover;
+background-size:cover;
 color: white;
 font-size: 22.5px;
 font-style: oblique;
-margin-left: 100px;
-margin-right: 100px;
+	
 }
-.headings img{
+
+.flags{
   height: 50px;
   width: 100px;
   margin-bottom: 20px;
 }
 
-
-/* {
-  border: 1px solid red !important;
-
-}*/
-
-.navbar {
-  border: 2px solid black;
-display: inline;
-padding-right: 20px;
+.headings h1 {
+	display: inline;
+	margin-left: 180px;
+	font-family: 'Indie Flower', cursive;
 }
 
-.navbar a {
+
+{
+  border: 1px solid red !important;
+
+ }
+
+.navbar {
+border: 2px solid black;
+background-color: white;
+margin-left: 310px;
+	margin-right: 310px;
+	text-align: center;
+padding-right: 70px;
+padding-left: 50px;
+font-size:30px;
+
+}
+.navbar li {
+	display: inline-block;
+	margin-left: 40px;
+	font-size: 65%;
+	font-weight: 300;
+	
+}
+.navbar li a {
   text-decoration: none;
   margin-left: 20px;
-  color: white;
+  color: black;
+
+}
+
+.navbar li a:hover {
+	background-color: navy;
 }
 
 #Breakfast img {
@@ -50,21 +73,138 @@ padding-right: 20px;
   border: 2px solid black;
 }
 
+.home {
+	background-image: linear-gradient(rgba(14, 14, 56, 0.58),rgba(8, 8, 36, 0.58) ),url(foodd.jpg);
+	
+}
+
 .home img {
-  width: 200px;
-  height: 200px;
-  border: 2px solid black;
+  width: 150px;
+  height: 150px;
+  border: 2px solid red;
+  border-radius: 50% 50%;
 }
 
 
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
-  padding: 10px;
+  
 }
 .grid-item {
   padding: 20px;
-  font-size: 30px;
   text-align: center;
-  font-family: 'Leckerli One', cursive;
+  
+}
+
+#grid-item_a {	
+
+   font-size: 22px;
+   font-family: 'Piedra', cursive;
+}
+
+.text_1 {
+  margin-top: 0px;
+  padding-top: 0px;	
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typewriter;
+  display: inline-block;
+  position: relative;
+  animation-duration: 10s;
+  animation-timing-function: steps(25, end);
+  animation-iteration-count: infinite;
+  color: blanchedalmond;	
+}
+.text_1::after {
+  content: "|";
+  position: absolute;
+  right: 0;
+  animation: caret infinite;
+  animation-duration: 1s;
+  animation-timing-function: steps(1, end);
+}
+
+@keyframes typewriter {
+  0%, 100% {
+    width: 0;
+  }
+  20%, 80% {
+    width: 10.2em;
+  }
+}
+@keyframes caret {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+
+#backToHome {
+	float: right;
+	text-decoration: none;
+	color: aliceblue;
+	background-color: navy;
+	padding: 5px;
+	border: 5px solid red;
+}
+
+#continental {
+	color: blanchedalmond;
+}
+
+.jamaica {
+	position: relative;
+	display: inline-block;
+}
+
+.text {
+	position: absolute;
+	z-index: 999;
+	margin:0 auto;
+	left: 0;
+	right: 0;
+	top:40%;
+	text-align: center;
+	width: 60%;
+	color: black;
+}
+
+.germany {
+	position: relative;
+	display: inline-block;
+}
+
+.Slovakia {
+	position: relative;
+	display: inline-block;
+}
+
+.Zimbabwe {
+	position: relative;
+	display: inline-block;
+}
+
+
+
+
+
+.food {
+	background-image:linear-gradient(rgba(155, 165, 81, 0.31),rgba(8, 8, 36, 0.58) ),url(apple.jpg);
+	background-size: cover;
+	background-repeat:no-repeat;
+	margin-top:80px;
+}
+
+.AboutFood {
+	margin-left: 200px;
+	margin-right:200px;
+	
+}
+
+.food img{
+	width: 300px;
 }
