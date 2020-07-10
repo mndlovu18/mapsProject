@@ -1,9 +1,13 @@
 body {
 text-align: center;
 font-family: Georgia, 'Times New Roman', Times, serif;
+<<<<<<< HEAD
 background-image: url(image2.jpg);
 background-repeat:;
 background-size:;
+=======
+background-image: url(foodwall.jpg);
+>>>>>>> a45e46e02394236875a4f4b918eea923b6239c64
 color: white;
 font-size: 22.5px;
 font-style: oblique;
@@ -27,11 +31,6 @@ font-style: oblique;
   padding-right: 8%;
 }
 
-
-{
-  border: 1px solid red !important;
-
- }
 
 .navbar {
 border: 2px solid black;
@@ -153,10 +152,10 @@ font-size:30px;
 #backToHome {
 	float: right;
 	text-decoration: none;
-	color: aliceblue;
-	background-color: navy;
-	padding: 5px;
-	border: 5px solid red;
+	color: black;
+	background-color: whitesmoke
+  padding;
+	border: 5px solid black;
 }
 
 #continental {
